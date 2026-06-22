@@ -109,4 +109,4 @@ If you're also deploying `scalekit-sdk-python` alongside it and run into issues,
 
 ---
 
-*Something here wrong or out of date? Open a PR or ping [Gergely / repo owner] - this file is the source of truth.*
+*Something here wrong or out of date? Open a PR or ping Gergely on Discord (repo owner) - this file is the source of truth.*
