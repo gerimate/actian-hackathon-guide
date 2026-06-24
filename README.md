@@ -8,6 +8,27 @@ Scalekit handles who your agent is acting as: per-user OAuth tokens and scoped p
 
 ![Stack architecture](arch-diagram.png)
 
+## The Actian Challenge: "Prove it"
+
+Build an agent that acts as a specific user and remembers only what belongs to them. Anyone can assert isolation. Your demo needs to show it.
+
+To enter, your project must use VectorAI DB for per-user memory, Scalekit for user identity, and run on Render with a live URL.
+
+**Judging criteria (equal weight):**
+
+- **Innovation:** Is the approach novel? Does it solve the problem in a way we haven't seen before?
+- **Technical complexity:** How well-built is it? Does it genuinely use all three tools?
+- **Impact:** Does it solve a real problem? Could it scale beyond the demo?
+- **Presentation & usability:** Is the demo clear and compelling? Would someone actually use it?
+
+
+Prizes<br>
+🥇 1st place: $500<br>
+🥈 2nd place: $300<br>
+🥉 3rd place: $200
+
+*Note: Prizes are per team, not per person. Solo entry takes the full amount.*
+
 ## Why this might matter for what you're building
 
 - **Per-user/tenant agent memory that doesn't leak across identities**: relevant if you're building agents that need to act as a specific user with that user's own context
