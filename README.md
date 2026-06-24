@@ -22,10 +22,10 @@ To enter, your project must use VectorAI DB for per-user memory, Scalekit for us
 - **Presentation & usability:** Is the demo clear and compelling? Would someone actually use it?
 
 
-Prizes<br>
-🥇 1st place: $500<br>
-🥈 2nd place: $300<br>
-🥉 3rd place: $200
+**Prizes**<br>
+🥇 **1st place: $500**<br>
+🥈 **2nd place: $300**<br>
+🥉 **3rd place: $200**
 
 *Note: Prizes are per team, not per person. Solo entry takes the full amount.*
 
