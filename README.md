@@ -1,8 +1,12 @@
 # Actian VectorAI DB Guide - Scalekit x Actian x Render Build Day
 
-*Quick reference for the Scalekit x Actian x Render Build Day, June 27, SF. Maintained by the Actian VectorAI DB team — last updated: June 22nd 2026*
+*Quick reference for the Scalekit x Actian x Render Build Day, June 27, SF. Maintained by the Actian VectorAI DB team — last updated: June 24nd 2026*
 
 ---
+
+Scalekit handles who your agent is acting as: per-user OAuth tokens and scoped permissions. VectorAI DB stores what it remembers, with one isolated collection per user so context never leaks across identities. Render hosts both as private services on the same internal network. The key detail tying all three together: Scalekit's user identifier and VectorAI DB's collection naming use the same string. That's what keeps auth and memory in sync without a separate mapping layer.
+
+![Stack architecture](arch-diagram.png)
 
 ## Why this might matter for what you're building
 
