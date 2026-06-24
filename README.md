@@ -1,6 +1,6 @@
 # Actian VectorAI DB Guide - Scalekit x Actian x Render Build Day
 
-*Quick reference for the Scalekit x Actian x Render Build Day, June 27, SF. Maintained by the Actian VectorAI DB team — last updated: June 24nd 2026*
+*Quick reference for the Scalekit x Actian x Render Build Day, June 27, SF. Maintained by the Actian VectorAI DB team — last updated: June 24th 2026*
 
 ---
 
