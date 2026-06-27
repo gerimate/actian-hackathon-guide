@@ -8,7 +8,7 @@ Scalekit handles who your agent is acting as: per-user OAuth tokens and scoped p
 
 ![Stack architecture](arch-diagram.png)
 
-Building something or have questions? Join our [Discord](http://discord.gg/432A2M63Py). We're active there during, and after the event.
+**Building something or have questions? Join our [Discord](http://discord.gg/432A2M63Py). We're active there during, and after the event.**
 
 ## The Actian Challenge: "Prove it"
 
