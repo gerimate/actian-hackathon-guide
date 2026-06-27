@@ -94,6 +94,8 @@ One more thing worth knowing: Community Edition's 5,000 limit caps out across al
 
 Also installing `scalekit-sdk-python`? There's a known conflict — its pinned `protobuf<7.0.0` requirement silently downgrades the protobuf version `actian-vectorai-client` needs, regardless of your Python version. Fix: install scalekit with `--no-deps`, then explicitly install `protobuf>=6.31.1` and `grpcio-status>=1.67.0` after. If you hit it, find Siam and he'll  help you solve it.
 
+Another common issue can be around ports. Use actian/vectorai, gRPC port 6574. If you see 50051 or a third-party image, you’re probably using stale instructions.
+
 ## Pattern: per-user memory, no cross-contamination
 
 If your agent needs to act as a specific user and remember only that user's own context, VectorAI DB doesn't have a built-in multi-tenancy API — the isolation has to happen in your code. The simplest reliable way: one collection per user, named off whatever identifier your auth layer already gives you.
